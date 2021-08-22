@@ -1,0 +1,28 @@
+{{ if .Site.Data.homepage.contact_static.enable }}
+<section id="contact" class="section section--contact pt-0">
+    <div class="container">
+        <div class="contact">
+            <h2>{{ .Site.Data.homepage.contact_static.title }}</h2>
+            <div class="row pt-2">
+                <div class="col-12 col-lg-7">
+                    <img
+                    class='lozad img-responsive img-clip-left-forward'
+                    src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                    data-src="images/image-messages.png"
+                    data-srcset="images/image-messages.png"
+                    alt="TEST"
+                  />
+                </div>
+                <div class="col-12 col-lg-5 contact__info">
+                    <h4>{{ .Site.Data.homepage.contact_static.phone.title }}</h4>
+                    <span>{{ .Site.Data.homepage.contact_static.phone.number }}</span>
+                    <h4>{{ .Site.Data.homepage.contact_static.email.title }}</h4>
+                    <span>{{ .Site.Data.homepage.contact_static.email.email | safeHTML }}</span>
+                    <h4>{{ .Site.Data.homepage.contact_static.address.title }}</h4>
+                    <span>{{ .Site.Data.homepage.contact_static.address.address | safeHTML }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

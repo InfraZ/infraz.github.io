@@ -24,28 +24,28 @@ showcase:
 
   socialLinks:
     # - icon: "linkedin"
-    #   URL: "https://www.linkedin.com/company/radity/"
+    #   URL: "https://www.linkedin.com/company/infraz/"
 
     # - icon: "github"
-    #   URL: "https://github.com/radity"
+    #   URL: "https://github.com/infraz"
 
     # - icon: "twitter"
-    #   URL: "https://twitter.com/radity"
+    #   URL: "https://twitter.com/infraz"
 
     # - icon: "dribbble"
-    #   URL: "https://dribbble.com/radity"
+    #   URL: "https://dribbble.com/infraz"
 
     # - icon: "behance"
-    #   URL: "https://www.behance.net/radity-digital"
+    #   URL: "https://www.behance.net/infraz"
 
     # - icon: "youtube"
-    #   URL: "https://www.youtube.com/channel/UCojEc6SPO-W1_CoeHhK9-Zw"
+    #   URL: "https://www.youtube.com/channel/"
 
     # - icon: "instagram"
-    #   URL: "https://www.instagram.com/teamradity/"
+    #   URL: "https://www.instagram.com/infraz/"
 
     # - icon: "facebook"
-    #   URL: "https://www.facebook.com/raditycom/"
+    #   URL: "https://www.facebook.com/infraz/"
 
     # - icon: "codepen"
     #   URL: "#"
@@ -215,7 +215,7 @@ client_and_work:
 
 # testimonial
 testimonial:
-  enable: true
+  enable: false
   title: "Testimonials"
   items:
     - name: "Daniel Jordan"
@@ -240,32 +240,49 @@ testimonial:
         _2x: "img/testimonials/antonio-willis@2x.jpg"
 
 # contact
-contact:
+contact_static:
   enable: true
   title: "Contact"
-  form:
-    method: "POST"
-    action: "#"
-    full_name: "Full Name"
-    email: "Email Address"
-    message: "Type Your Message Here"
   phone:
     title: "Phone Number"
-    number: "+41 (44) 505 10 99"
+    number: "+1 (903) 231 7172"
   email:
     title: "Email"
-    email: '<a href="mailto:team@radity.com">team@radity.com</a>'
+    email: '<a href="mailto:contact@infraz.io">contact@infraz.io</a>'
   address:
     title: "Address"
-    address: "Radity GmbH<br />Max-Bill-Platz 5, 8050 Zürich"
+    address: "infraZ <br />Max-Bill-Platz 5, 8050 Netherland"
   button:
     icon: "icon-mail-fill"
     btnText: "Send Message"
 
-# newsletter
-newsletter:
-  enable: true
-  title: "Newsletter subscription"
-  success_message: "Successfully subscribed"
-  error_message: "Error while subscribing."
-  note: "We'll never share your email with anyone else."
+# # contact
+# contact:
+#   enable: true
+#   title: "Contact"
+#   form:
+#     method: "POST"
+#     action: "#"
+#     full_name: "Full Name"
+#     email: "Email Address"
+#     message: "Type Your Message Here"
+#   phone:
+#     title: "Phone Number"
+#     number: "+41 (44) 505 10 99"
+#   email:
+#     title: "Email"
+#     email: '<a href="mailto:team@radity.com">team@radity.com</a>'
+#   address:
+#     title: "Address"
+#     address: "Radity GmbH<br />Max-Bill-Platz 5, 8050 Zürich"
+#   button:
+#     icon: "icon-mail-fill"
+#     btnText: "Send Message"
+
+# # newsletter
+# newsletter:
+#   enable: true
+#   title: "Newsletter subscription"
+#   success_message: "Successfully subscribed"
+#   error_message: "Error while subscribing."
+#   note: "We'll never share your email with anyone else."

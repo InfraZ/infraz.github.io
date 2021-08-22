@@ -26,13 +26,13 @@ theme = "raditian-custom"
 [menu]
 
   [[menu.header]]
-  name = "About"
-  URL = "#about"
+  name = "About Us"
+  URL = "#about_us"
   weight = 2
 
   [[menu.header]]
-  name = "Portfolio"
-  URL = "#portfolio"
+  name = "Services"
+  URL = "#services"
   weight = 3
 
   [[menu.header]]
@@ -47,8 +47,8 @@ theme = "raditian-custom"
   weight = 2
 
   [[menu.footer]]
-  name = "Portfolio"
-  URL = "#portfolio"
+  name = "Services"
+  URL = "#services"
   weight = 3
 
   [[menu.footer]]
@@ -60,7 +60,7 @@ theme = "raditian-custom"
 [params]
 
 #  sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
-  sections = ["showcase", "about", "services", "client-and-work", "testimonial", "client-and-work", "contact", "newsletter"]
+  sections = ["showcase", "about", "services", "client-and-work", "testimonial", "client-and-work", "contact_static"]
 
   googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
 
