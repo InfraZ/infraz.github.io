@@ -6,11 +6,13 @@ homepage:
 showcase:
   enable: true
   title: "We're infraZ"
-  subtitle: "moves you onto a new area in DecOps, Cloud and Infrastructure"
+  subtitle: "moves you onto a new area in DevOps, Cloud and Infrastructure"
   description: ""
   # description: "I work at <a target='_blank' href='https://radity.com/'>Radity</a>, a software development company in Switzerland. And I am a Raditian. You get the idea where theme name comes from. Keep cool, stay in touch. You can download this theme from <a target='_blank' href='https://github.com/radity/raditian-free-hugo-theme'>github</a>."
   image:
     alt: "Showcase keyboard and mouse image"
+    # x: "images/image-one-person-version-control.svg"
+    # _2x: "images/image-one-person-version-control.svg"
     x: "images/image-man-git.svg"
     _2x: "images/image-man-git.svg"
   imageMobile:
@@ -124,8 +126,8 @@ services:
     - title: "Monitoring & Alerting"
       description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
       image:
-        x: "images/image-two-person.svg"
-        _2x: "images/image-two-person.svg"
+        x: "images/undraw_Lost_online_re_upmy.svg"
+        _2x: "images/undraw_Lost_online_re_upmy.svg"
       is_even: true
 
     - title: "Performance tuning"
@@ -135,13 +137,33 @@ services:
         _2x: "images/image-monitoring.svg"
       is_even: false
 
-    - title: "ُTechnical consultant"
+    - title: "Design cloud architecture"
+      description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      image:
+        x: "images/image-two-person.svg"
+        _2x: "images/image-two-person.svg"
+      is_even: true
+
+    - title: "Technical consultant"
       description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
       image:
         x: "images/image-collabration.svg"
         _2x: "images/image-collabration.svg"
+      is_even: false
+
+    - title: "Monitoring & Alerting"
+      description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      image:
+        x: "images/undraw_Lost_online_re_upmy.svg"
+        _2x: "images/undraw_Lost_online_re_upmy.svg"
       is_even: true
 
+    - title: "Performance tuning"
+      description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      image:
+        x: "images/undraw_Vault_re_s4my.svg"
+        _2x: "images/undraw_Vault_re_s4my.svg"
+      is_even: false
 
 # Client & Work
 client_and_work:
